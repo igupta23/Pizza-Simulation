@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ishika/Desktop/Fall 2021/CS120/FinalProject/Driver.hpp
+string
+-
+queue
+-
+Time.hpp
+/Users/ishika/Desktop/Fall 2021/CS120/FinalProject/Time.hpp
+Order.hpp
+/Users/ishika/Desktop/Fall 2021/CS120/FinalProject/Order.hpp
+
+/Users/ishika/Desktop/Fall 2021/CS120/FinalProject/Order.hpp
+utility
+-
+Time.hpp
+/Users/ishika/Desktop/Fall 2021/CS120/FinalProject/Time.hpp
+
+/Users/ishika/Desktop/Fall 2021/CS120/FinalProject/Restaurant.hpp
+queue
+-
+list
+-
+string
+-
+Driver.hpp
+/Users/ishika/Desktop/Fall 2021/CS120/FinalProject/Driver.hpp
+
+/Users/ishika/Desktop/Fall 2021/CS120/FinalProject/Time.hpp
+iostream
+-
+string
+-
+
+/Users/ishika/Desktop/Fall 2021/CS120/FinalProject/main.cpp
+iostream
+-
+Restaurant.hpp
+/Users/ishika/Desktop/Fall 2021/CS120/FinalProject/Restaurant.hpp
+Time.hpp
+/Users/ishika/Desktop/Fall 2021/CS120/FinalProject/Time.hpp
+
